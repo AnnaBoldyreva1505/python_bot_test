@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anna Boldyreva - Junior Frontend Developer</title>
+    <style>
+      /* General Styles */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Side Menu Styles */
+      .side-menu {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 200px;
+        background-color: #007acc;
+        color: #fff;
+        height: 100%;
+        padding: 20px;
+      }
+
+      .side-menu ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .side-menu li {
+        margin: 15px 0;
+      }
+
+      .side-menu a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        font-size: 18px;
+      }
+
+      /* Main Content Styles */
+      .main-content {
+        margin-left: 220px;
+        /* Adjust this margin based on the side menu width */
+        padding: 20px;
+      }
+
+      header h1 {
+        font-size: 36px;
+        margin: 0;
+      }
+
+      header h2 {
+        font-size: 20px;
+        margin: 10px 0;
+      }
+
+      /* Profile Photo Styles */
+      .profile-photo {
+        display: block;
+        margin: 0 auto;
+        border: 5px solid #fff;
+        border-radius: 50%;
+        width: 150px;
+      }
+
+      /* Footer Styles */
+      footer {
+        background-color: #007acc;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+      }
+
+      /* Smooth Scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="side-menu">
+      <ul><img src="profile-photo.jpg" alt="Anna Boldyreva" class="profile-photo" />
+        <li></li>
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="#about">About Myself</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#code-example">Code example</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#languages">Languages</a></li>
+      </ul>
+    </div>
+
+    <div class="main-content">
+      <header>
+        <h1>Anna Boldyreva</h1>
+        <h2>Junior Frontend Developer</h2>
+      </header>
+
+      <section id="contacts">
+        <h3>Contacts:</h3>
+        <ul>
+          <li>e-mail: <a href="mailto:1234@ert.kz">1234@ert.kz</a></li>
+          <li>phone: +79999999</li>
+          <li>Discord: anna9</li>
+          <li>
+            Linkedin:
+            <a href="https://www.linkedin.com/9">https://www.linkedin.com/9</a>
+          </li>
+          <li>
+            GitHub: <a href="https://github.com/9">https://github.com/9</a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="about">
+        <h3>About Myself:</h3>
+        <p>
+          I'm a junior Frontend developer seeking a full-time position. I have a
+          solid foundation in HTML, CSS, JavaScript, and React. I've actively
+          contributed to the development of e-learning courses and served as an
+          administrator for a knowledge base. This role required me to create
+          HTML page layouts. My skill set also includes strong interpersonal
+          abilities, effective time management, meticulous attention to detail,
+          and a collaborative spirit. I'm adept at balancing tasks and
+          prioritizing effectively to ensure timely delivery of high-quality
+          products. I have practical experience in Agile/Scrum and Kanban
+          methodologies within a team setting.
+        </p>
+      </section>
+
+      <section id="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li>HTML5/CSS3/SASS</li>
+          <li>Responsive/Adaptive design</li>
+          <li>Git | GitHub</li>
+          <li>JavaScript</li>
+          <li>React</li>
+        </ul>
+      </section>
+
+      <section id="code-example">
+        <h3>Code example:</h3>
+        <h4>Description:</h4>
+        <p>
+          Create a function that takes an integer as an argument and returns
+          "Even" for even numbers or "Odd" for odd numbers.
+        </p>
+        <pre>
+                <code>
+function evenOrOdd(number) {
+  return number % 2 === 0 ? 'Even' : 'Odd';
+}
+                </code>
+            </pre>
+      </section>
+
+      <section id="projects">
+        <h3>Projects:</h3>
+        <ul>
+          <li>
+            <a href="https://github.io/goit-markup-hw-08_1/index.html"
+              >Educational project</a
+            >
+          </li>
+          <p>
+            A website with a responsive layout. Build project on GitHub, check
+            for build errors and live page performance.
+          </p>
+        </ul>
+      </section>
+
+      <section id="education">
+        <h3>Education</h3>
+        <ul>
+          <li>
+            University: Kazakh-American University, Bachelor of Radio
+            Engineering Electronics and Telecommunications, 2011
+          </li>
+          <li>
+            Courses:
+            <ul>
+              <li><a href="https://htmlacademy.ru/">HTML Academy</a></li>
+              <li><a href="https://goit.global/ua-ru/">GO IT</a></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section id="languages">
+        <h3>Languages</h3>
+        <ul>
+          <li>English: Pre-Intermediate</li>
+          <li>Kazakh: Pre-Intermediate</li>
+          <li>Russian: Native</li>
+        </ul>
+      </section>
+    </div>
+
+    <footer>
+      <a href="https://github.com/9">GitHub</a> | &copy; 2023 |
+      <img src="logo.png" alt="Logo" width="20" />
+    </footer>
+  </body>
+</html>
